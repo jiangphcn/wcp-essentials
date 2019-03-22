@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: jiangph-app1
+  host: jiangph-app1
+  disk_quota: 128M
+  env:
+    DB_ACCOUNT: 3c3d05dd-44f9-42d4-a3ad-865f6d2585b1-bluemix
+    DB_USER: tersonerhounbodisheativi
+    DB_PASS: dd3fe418a3b466441fba2f58eef218eba5a7a6f3
